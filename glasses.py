@@ -7,7 +7,6 @@ import speech_recognition as sr
 
 def main():
     recognizer = sr.Recognizer()
-    said = 0
 
     with sr.Microphone() as source:
         print("אני שומע, אני מחכה לפקודת 'סיום' לסיים")
